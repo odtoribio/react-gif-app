@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test GiffApp component should render GiffApp component 1`] = `
+<Fragment>
+  <h2>
+    Giff Expert App
+  </h2>
+  <AddCategoryButton
+    addCategory={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Test GiffApp component should render a list of categories 1`] = `
+<Fragment>
+  <h2>
+    Giff Expert App
+  </h2>
+  <AddCategoryButton
+    addCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <GiffGrid
+      category="one punch, goku"
+      key="one punch, goku"
+    />
+  </ol>
+</Fragment>
+`;
